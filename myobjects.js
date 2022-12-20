@@ -57,4 +57,5 @@ let obj = {
 }
 
 console.log(obj.background['10']);
+console.log(obj.background.btech);
 

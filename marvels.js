@@ -10,6 +10,23 @@ console.log(`We have ${superHeros.length} superHeros`);
 
 const numbers = ['one','two','three','four','five','six']
 
+//Concatinate two arrays
+let newArray = numbers.concat(superHeros);
+console.log(newArray);
+
+//slice
+console.log(numbers.slice(2,4));
+
+
+//sort 
+//sort alphabatically
+let compare = (a, b)=>{
+    return a-b;
+}
+let number_array = [2,22232,3,32223,4,5];
+number_array.sort(compare);
+console.log(number_array);
+
 //In the start
 lsString = numbers.shift()  //Remove elements from starting
 lsString1 = numbers.shift()
@@ -29,3 +46,4 @@ console.log(numbers);
 //In the middle
 numbers.splice(2,2,'SOMETHING');
 console.log(numbers);
+

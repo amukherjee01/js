@@ -60,16 +60,17 @@
 // }, 5000);
 
 
-// function HelloWorld(callback){
-//     console.log('Hello world!!')
-//     return callback()
-// }
+function HelloWorld(callback){
+    console.log('Hello world!!')
+    callback()
+}
 
-// function myname(){
-//     console.log('My name is aditya')
-// }
+function myname(){
+    console.log('My name is aditya')
+}
 
-// let result = HelloWorld(myname)
+let result = HelloWorld(myname)
+
 
 
 
