@@ -17,7 +17,7 @@ allelements.forEach(function(ele){
 let newelement = document.createElement('p')
 newelement.textContent = 'I am created via JS'
 newelement.id = "js"
-newelement.style = 'background:blue'
+newelement.style = 'color:blue'
 document.querySelector('body').appendChild(newelement)
 
 
